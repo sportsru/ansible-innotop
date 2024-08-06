@@ -1,7 +1,6 @@
 ## innotop
 
-[![CI](https://github.com/Oefenweb/ansible-innotop/workflows/CI/badge.svg)](https://github.com/Oefenweb/ansible-innotop/actions?query=workflow%3ACI)
-[![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-innotop-blue.svg)](https://galaxy.ansible.com/Oefenweb/innotop)
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-innotop.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-innotop) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-innotop-blue.svg)](https://galaxy.ansible.com/Oefenweb/innotop)
 
 Set up the latest version of [innotop](https://github.com/innotop/innotop) in Debian-like systems.
 
@@ -23,7 +22,7 @@ None
 ---
 - hosts: all
   roles:
-    - oefenweb.innotop
+    - innotop
 ```
 
 #### License

@@ -1,6 +1,3 @@
----
-warn_list:
-  - role-name
-  - name[play]
-  - name[casing]
-  - latest[git]
+skip_list:
+  - '401'
+  - '405'
